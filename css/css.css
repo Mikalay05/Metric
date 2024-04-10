@@ -1,28 +1,36 @@
 body{
+    max-width: 1440px;
     margin: 0;
+    padding: 0;
 }
-#header-section{
-    background-color: aqua;
+#header-section{                                
     display: flex;
     align-items: center;    
     height: 74px;
     justify-content: space-between;
+}
+.logo {
+    height: 58px;
+    width: 217px;
+    padding-top: 16px;
+    padding-left: 20px; 
 }
 #nav{
     display: flex;
     list-style-type: none;
 
 }
+#nav li{
+    width: 98px;
+    height: 48px;
+    padding-top: 26px;
+    padding-left: 21px;
+}
 #nav a{
-    padding: 20px;
+
 }
-.logo {
-    color: #1C1C1C;
-    font-family: "Roboto Slab";
-    font-size: 27px;
-}
+
 #main-section{
-    background-color: red
 
 }
 #footer-section{
@@ -30,5 +38,40 @@ body{
 }
 
 .grow-your-business-section {
-    background-image: url(images/fon.png);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* flex-wrap: wrap; */
+    height: 432px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/fon.png)
+}
+.img-in-grow-your-business
+{
+    width: 460px;
+    height: 291px;
+    background-image: url(../images/img-grow-your-business.png)
+}
+.buttons-grow-your-business {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+.size-grow-your-business {
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+    max-width: 800px;   
+    gap: 23px;
+}
+.text-grow-business{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+.text-grow-business h1, h2{
+    align-self: stretch;
 }
