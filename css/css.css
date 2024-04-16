@@ -26,24 +26,13 @@ body{
     padding-top: 26px;
     padding-left: 21px;
 }
-#nav a{
-
-}
-
-#main-section{
-
-}
-#footer-section{
-    background-color:blueviolet;
-}
 
 .grow-your-business-section {
     display:flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    /* flex-wrap: wrap; */
-    height: 432px;
+    height: 420px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -59,12 +48,17 @@ body{
     display: flex;
     justify-content: center;
     gap: 14px;
+
 }
 .size-grow-your-business {
+    background-color:yellow;
     display: flex;
-    flex-direction: column;
     min-width: 250px;
-    max-width: 800px;   
+    max-width: 800px;
+    padding: 0px 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 23px;
 }
 .text-grow-business{
@@ -74,4 +68,8 @@ body{
 }
 .text-grow-business h1, h2{
     align-self: stretch;
+}
+
+#footer-section{
+    background-color:blueviolet;
 }
