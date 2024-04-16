@@ -51,7 +51,6 @@ body{
 
 }
 .size-grow-your-business {
-    background-color:yellow;
     display: flex;
     min-width: 250px;
     max-width: 800px;
@@ -72,4 +71,16 @@ body{
 
 #footer-section{
     background-color:blueviolet;
+}
+.in-the-pass-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color: #3E5C50;
+    padding: 29px 20px;
+}
+.images-in-the-pass {
+    display: flex;
+    gap: 37px;
 }
