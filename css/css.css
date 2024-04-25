@@ -84,3 +84,21 @@ body{
     display: flex;
     gap: 37px;
 }
+.sync-across-all-devices-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.web-application-box {
+    display: flex;  
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.web-right-application-box {
+    display: flex;
+    flex-direction: column;
+}
+.mobile-app-box {
+    display: flex;
+}
