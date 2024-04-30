@@ -125,3 +125,10 @@ body{
     background: #DDE7ED;
     padding: 70px 250px;
 }
+.box-say {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
