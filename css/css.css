@@ -130,5 +130,21 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+}
+.slider {
+    display: flex;
+    justify-content: space-between;
+    animation: sliderswap 1s forwards;
+}
+.slider-info {
+    max-width: 750px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.what-people-say-section {
+    display: flex;
+    text-align: center;
 }
