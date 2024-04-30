@@ -113,3 +113,15 @@ body{
 .plans-and-pricing-header {
     text-align: center;
 }
+.pricing-plans-section-box {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    padding: 17px;
+    gap: 13px;
+    background: #FFF;
+}
+.plans-and-pricing {
+    background: #DDE7ED;
+    padding: 70px 250px;
+}

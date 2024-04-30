@@ -83,3 +83,57 @@ h3 {
     text-align: center;
     font-weight: normal;
 }
+.text-plan-value-discription {
+    color: #489FD9;
+    font-family: Roboto;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+.text-plan-characteristic-discription {
+    color: #2B2B2B;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+.line-divider-characterictic {
+    display: flex;
+    width: 93px;
+    height: 1px;
+    background: #DBDBDB;
+    gap: 12px;
+}
+.text-characteristic-activ {   
+    color: #2B2B2B;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+.text-characteristic-passiv {
+    color: #C7C5C5;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+.button-choose-plan {
+    border-radius: 3px;
+    background: #000;
+    width: 186px;
+    height: 42px;
+}
+.text-button-choose-plan {
+    color: #FFF;
+    text-align: center;
+    font-family: "Roboto Slab";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
