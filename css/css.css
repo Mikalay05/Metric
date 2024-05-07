@@ -90,13 +90,36 @@ body{
     gap: 10px;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    align-self: stretch;
 }
 .web-right-application-box {
     display: flex;
     flex-direction: column;
+    height: 290px;
+    min-width: 180px;
+    max-width: 490px;
+    justify-content: center;
+    gap:14px;
+    align-items: flex-start;    
 }
+.web-right-application-box h4, p{
+    margin: 0;
+}
+.web-left-application-box {
+    display: flex;
+    flex-direction: column;
+    min-width: 230px;
+    max-width: 460px;
+    justify-content: center;
+    gap:14px;
+    align-items: flex-start;  
+}
+
 .mobile-app-box {
     display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 .mobile-app-property-icons-section {
     display: flex;
@@ -130,6 +153,7 @@ body{
 .slider {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .slider-info {
     max-width: 750px;
