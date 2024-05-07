@@ -68,10 +68,6 @@ body{
 .text-grow-business h1, h2{
     align-self: stretch;
 }
-
-#footer-section{
-    background-color:blueviolet;
-}
 .in-the-pass-section {
     display: flex;
     flex-direction: column;
@@ -134,7 +130,6 @@ body{
 .slider {
     display: flex;
     justify-content: space-between;
-    animation: sliderswap 1s forwards;
 }
 .slider-info {
     max-width: 750px;
@@ -146,5 +141,60 @@ body{
 }
 .what-people-say-section {
     display: flex;
-    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-icons {
+    background: #A1BFD4;
+    display: flex;
+    justify-content: center;
+}
+
+.main-footer {
+    background: #2B2C2E;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    padding:    42px 160px;;
+}
+#footer-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+.end-footer-text {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background: #1C1D1F;
+}
+
+.main-footer-company {
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    height: 149px;
+
+}
+.main-footer p{
+    margin: 0;
+}
+
+.main-footer h4{
+    margin: 0 0 11px 0;
+}
+.main-footer-product {
+    width: 160px;
+    height: 126px;
+}
+.main-footer-legal {
+    width: 160px;
+    height: 80px;
+}
+.footer-section-box {
+    display: flex;
 }

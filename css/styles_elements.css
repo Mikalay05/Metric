@@ -141,3 +141,63 @@ h3 {
     width: 50px;
     height: 50px;
 }
+.end-footer-text p {
+    color: #939596;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+.text-main-footer-title
+{
+    color: #E4E8EB;
+    font-family: "Roboto Condensed";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.text-main-footer-common {
+    color: #939596;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+.footer-left-section {
+    border-radius: 2px 0px 0px 2px;
+    background: #E8E8E8;
+    width: 190px;
+    height: 40px;   
+}
+.footer-right-section {
+    border-radius: 0px 2px 2px 0px;
+    background: #5F6166;
+    width: 130px;
+    height: 40px;
+}
+.main-footer-sign-up h3{
+    color: #E6EAED;
+    font-family: "Roboto Slab";
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+.main-footer-sign-up p {
+    color: #939596;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+.main-footer-sign-up {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
