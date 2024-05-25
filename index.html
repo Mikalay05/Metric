@@ -2,22 +2,36 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/css.css">
     <link rel="stylesheet" href="css/styles_elements.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/animation.css">
+
     <title>Metric</title>
 </head>
-
 <body>
     <header id="header-section">
         <h1 class="logo text-logo">Metric</h1>
-        <ul id="nav">
-            <li><a>Features</a></li>
-            <li><a>Customers</a></li>
-            <li><a>Pricing</a></li>
-            <li><a>Sign Up</a></li>
-        </ul>
-    </header>
+        <div class = "burger-menu">
+            <div class = "burger-lines">
+                <div id = "burger-line-1" class = "burger-menu-line"></div>
+                <div id = "burger-line-2" class = "burger-menu-line"></div>
+                <div id = "burger-line-3" class = "burger-menu-line"></div>
+            </div>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li><a>Features</a></li>
+                <li><a>Customers</a></li>
+                <li><a>Pricing</a></li>
+                <li><a>Sign Up</a></li>
+            </ul>
+        </nav>
 
+    </header>
+ 
     <main id="main-section">
         <section class="grow-your-business-section">
             <div class="size-grow-your-business">
@@ -157,14 +171,14 @@
         <section class = "what-people-say-section">
             <h3>What People Say About Us</h3>
             <div class = "slider">
-                <button class="button-pagination-back slider"></button>
+                <button class="button-pagination-back slider"><</button>
                 <div class = "slider-info">
                     <p id = "id-what-say">“Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum.”</p>
                     <img id = "id-img-who-say" src="images/people-who-say/Kyle.png" alt = "NotFound" width = "70" height="70">
                     <p id = "id-who-say">Kyle Killit</p>
                     <p id = "id-position-who-say">Designer at Tiempo Labs</p>
                 </div>
-                <button class="button-pagination-front"></button>
+                <button class="button-pagination-front">></button>
             </div>
         </section>
     </main>
@@ -224,6 +238,7 @@
         </section>
     </footer>
     <script src = "js/slider.js"></script>
+    <script src = "js/burger.js"></script>
 </body>
 
 </html>

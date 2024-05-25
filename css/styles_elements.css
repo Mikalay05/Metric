@@ -49,14 +49,6 @@ h1,h2,h3,h4,p{
     font-family: "Roboto Slab";
     font-size: 27px;
 }
-#nav a {
-    color: #222;
-    font-family: Roboto;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 22px;
-}
 .in-the-pass-section h3 {
     color: rgba(255, 255, 255, 0.31);
     text-align: center;
@@ -339,4 +331,57 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 22px;
+}
+.button-pagination-back, .button-pagination-front{
+    background-color: #DDE7ED;
+    color: #2B2C2E;
+    border: none;
+    padding: 10px 20px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s; /* Анимация для фона и трансформации */
+}
+.burger-menu {
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    display: none;
+    cursor: pointer;
+
+}
+.burger-menu-line {
+    background-color: black;
+    width: 40px;
+    height: 4px;    
+    border-radius: 8px;
+}
+.burger-lines {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-end;
+}
+.hidden {
+    display: none;
+}
+#nav ul li a {
+    color: #222;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+#nav.is-visible {
+    display: flex;
+}
+#nav.is-visible ul {
+    display: flex;
+    flex-direction: column;
+    /* position: absolute;
+    background: red;
+    width: 40%; */
 }

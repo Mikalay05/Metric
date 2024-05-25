@@ -8,6 +8,7 @@ body{
     align-items: center;    
     height: 74px;
     justify-content: space-between;
+    margin-right: 5px;
 }
 .logo {
     height: 58px;
@@ -15,27 +16,19 @@ body{
     padding-top: 16px;
     padding-left: 20px; 
 }
-#nav{
-    display: flex;
-    list-style-type: none;
 
-}
-#nav li{
-    width: 98px;
-    height: 48px;
-    padding-top: 26px;
-    padding-left: 21px;
-}
 
 .grow-your-business-section {
     display:flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    height: 420px;
+    min-height: 420px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    flex-wrap: wrap;
+    align-self: stretch;
     background-image: url(../images/fon.png)
 }
 .img-in-grow-your-business
@@ -289,4 +282,15 @@ align-items: flex-start;
 align-content: flex-start;
 gap: 10px;
 flex-wrap: wrap;
+}
+#nav ul{
+    display: flex;
+    list-style-type: none;
+
+}
+#nav ul li{
+    width: 98px;
+    height: 48px;
+    padding-top: 26px;
+    padding-left: 21px;
 }
