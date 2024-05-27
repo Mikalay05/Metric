@@ -2,7 +2,16 @@ body{
     max-width: 1440px;
     margin: 0;
     padding: 0;
+}#footer-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
+ #main-section, #footer-section{
+    display: none;
+}
+
 #header-section{                                
     display: flex;
     align-items: center;    
@@ -189,12 +198,7 @@ body{
     gap: 10px;
     padding:    42px 160px;;
 }
-#footer-section {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-}
+
 .end-footer-text {
     display: flex;
     justify-content: center;
