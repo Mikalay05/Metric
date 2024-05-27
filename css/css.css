@@ -80,6 +80,9 @@ body{
 .images-in-the-pass {
     display: flex;
     gap: 37px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 .sync-across-all-devices-section {
     display: flex;
