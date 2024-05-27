@@ -8,7 +8,7 @@ body{
     margin: 0;
     padding: 0;
 }
- #main-section, #footer-section{
+ .main-section, #footer-section{
     display: none;
 }
 
@@ -36,7 +36,6 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    flex-wrap: wrap;
     align-self: stretch;
     background-image: url(../images/fon.png)
 }
