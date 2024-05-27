@@ -15,3 +15,16 @@
             text-align: center;
         }
     }
+    @media(max-width:900px){
+        .slider-prev, .slider-next {
+            display:block;
+        }
+        #img4-in-the-pass,#img5-in-the-pass {
+            display: none;
+        }
+    }
+    @media(max-width:600px){
+        #img2-in-the-pass,#img3-in-the-pass{
+            display: none;
+        }
+    }
