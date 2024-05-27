@@ -28,3 +28,14 @@
             display: none;
         }
     }
+@media(max-width: 517px) {
+    .web-application-box {
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 648px) {
+    .mobile-app-box {
+        flex-wrap: wrap;
+    }
+}

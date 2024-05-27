@@ -20,7 +20,7 @@ function swapNext() {
     if (indexImg >= arrImgInThePass.length) {
         indexImg = 0;
     }
-    updateSliderContent();
+    updateSliderContentFromArr();
   }
   
   function swapPrev() {
@@ -29,10 +29,10 @@ function swapNext() {
     if (indexImg < 0) {
         indexImg = arrImgInThePass.length - 1;
     }
-    updateSliderContent();
+    updateSliderContentFromArr();
   }
   
-  function updateSliderContent() {
+  function updateSliderContentFromArr() {
     console.log(indexImg);
     let img1 = document.querySelector('#img1-in-the-pass');
     let img2 = document.querySelector('#img2-in-the-pass');

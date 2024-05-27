@@ -403,3 +403,13 @@ line-height: 22px;
     cursor: pointer;
     z-index: 10;
 }
+.mob-responsive-img {
+    width: 100%;
+    height: auto;
+    max-width: 460px;
+}
+.web-responsive-img {
+    width: 100%;
+    height: auto;
+    max-width: 332px;
+}
