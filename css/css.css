@@ -191,6 +191,7 @@ body{
     background: #A1BFD4;
     display: flex;
     justify-content: center;
+    align-items:center;
 }
 
 .main-footer {
