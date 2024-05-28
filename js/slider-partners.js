@@ -21,7 +21,7 @@ function swapNextIcon() {
     if (indexImgIconc >= arrImgPartners.length) {
         indexImgIconc = 0;
     }
-    updateSliderContentFromArr();
+    updateSliderContentFromArrForIcons();
   }
   
   function swapPrevIcon() {
@@ -30,10 +30,10 @@ function swapNextIcon() {
     if (indexImgIconc < 0) {
         indexImgIconc = arrImgPartners.length - 1;
     }
-    updateSliderContentFromArr();
+    updateSliderContentFromArrForIcons();
   }
   
-  function updateSliderContentFromArr() {
+  function updateSliderContentFromArrForIcons() {
     console.log(indexImgIconc);
     let img1 = document.querySelector('#img1-partners');
     let img2 = document.querySelector('#img2-partners');

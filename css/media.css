@@ -80,3 +80,15 @@
             display: none;
         }
     }
+    @media(max-width:800px){
+        .main-footer {
+            padding: 42px 10px;
+        }
+    }
+
+    @media(max-width:1000px){
+        .main-footer {
+            flex-wrap: wrap;
+
+        }
+    }
