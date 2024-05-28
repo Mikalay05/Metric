@@ -34,7 +34,7 @@
     }
 }
 
-@media(max-width: 648px) {
+@media(max-width: 740px) {
     .mobile-app-box {
         flex-wrap: wrap;
     }
