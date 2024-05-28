@@ -31,7 +31,7 @@ h1,h2,h3,h4,p{
 .text-grow-business h1{
     color: #FFF;
     font-family: Roboto;
-    font-size: 38px;
+    font-size: 41px;
     font-style: normal;
     font-weight: 400;
     line-height: 44px;
@@ -39,7 +39,7 @@ h1,h2,h3,h4,p{
 .text-grow-business h2{
     color: #FFF;
     font-family: Roboto;
-    font-size: 20px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
@@ -132,7 +132,7 @@ h1,h2,h3,h4,p{
     color: #939596;
     text-align: center;
     font-family: Roboto;
-    font-size: 13px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
@@ -158,13 +158,15 @@ h1,h2,h3,h4,p{
 .footer-left-section {
     border-radius: 2px 0px 0px 2px;
     background: #E8E8E8;
-    width: 320px;
+    max-width: 320px;
+    width: 75%;
     height: 40px;   
 }
 .footer-right-section {
     border-radius: 0px 2px 2px 0px;
     background: #5F6166;
-    width: 215px;
+    max-width: 215px;
+    width: 25%;
     height: 40px;
 }
 .main-footer-sign-up h3{
@@ -271,7 +273,7 @@ line-height: 22px;
     font-size: 31px;
     font-style: normal;
     font-weight: 400;
-    line-height: 50px;
+    line-height: 36px;
 }
 .plans-and-pricing-header p {
     color: #333;
@@ -304,7 +306,7 @@ line-height: 30px;
 }
 #id-what-say {
     color: #333;
-
+    letter-spacing: 1px;
     text-align: center;
     font-family: "Roboto Slab";
     font-size: 28px;
@@ -391,4 +393,36 @@ line-height: 22px;
 #nav.is-visible ul{
     display: flex;
     flex-direction: column;
+}
+.slider-prev, .slider-next {
+    display: none;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+}
+.mob-responsive-img {
+    width: 100%;
+    height: auto;
+    max-width: 460px;
+}
+.web-responsive-img {
+    width: 100%;
+    height: auto;
+    max-width: 332px;
+}
+.slider-partners-prev, .slider-partners-next {
+    display: none;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
 }
