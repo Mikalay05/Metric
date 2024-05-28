@@ -1,0 +1,10 @@
+.burger-menu-line {
+    transition: width 0.5s ease;
+}
+.images-in-the-pass {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.slider-container {
+display: flex;
+}

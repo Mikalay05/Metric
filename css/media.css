@@ -1,0 +1,94 @@
+    @media (max-width: 710px) {
+
+        .burger-menu {
+            display: flex;
+        }
+
+        #nav {
+            display: none;
+        }
+    }
+
+    @media(max-width: 1290px) {
+        .img-in-grow-your-business {
+            display: none;
+        }
+
+        .grow-your-business-section {
+            text-align: center;
+        }
+    }
+
+    @media(max-width:900px) {
+
+        .slider-prev,
+        .slider-next {
+            display: block;
+        }
+
+        #img4-in-the-pass,
+        #img5-in-the-pass {
+            display: none;
+        }
+    }
+
+    @media(max-width:600px) {
+
+        #img2-in-the-pass,
+        #img3-in-the-pass {
+            display: none;
+        }
+    }
+
+    @media(max-width: 517px) {
+        .web-application-box {
+            flex-wrap: wrap;
+        }
+    }
+
+    @media(max-width: 740px) {
+        .mobile-app-box {
+            flex-wrap: wrap;
+        }
+    }
+
+
+    @media(max-width:980px) {
+
+        .slider-partners-prev,
+        .slider-partners-next {
+            display: block;
+        }
+
+        #img6-partners,
+        #img5-partners {
+            display: none;
+        }
+    }
+
+    @media(max-width:720px) {
+
+        #img4-partners,
+        #img3-partners {
+            display: none;
+        }
+    }
+
+    @media(max-width:400px) {
+
+        #img2-partners {
+            display: none;
+        }
+    }
+    @media(max-width:800px){
+        .main-footer {
+            padding: 42px 10px;
+        }
+    }
+
+    @media(max-width:1000px){
+        .main-footer {
+            flex-wrap: wrap;
+
+        }
+    }

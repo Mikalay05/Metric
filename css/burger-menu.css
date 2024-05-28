@@ -1,0 +1,21 @@
+/* Стили для оверлея */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 500; /* Оверлей находится под бургер-меню и навигацией */
+    transition: opacity 0.5s ease;
+}
+
+.overlay.show {
+    display: block;
+    opacity: 1;
+}
+/* Запрет прокрутки */
+.no-scroll {
+    overflow: hidden;
+}
